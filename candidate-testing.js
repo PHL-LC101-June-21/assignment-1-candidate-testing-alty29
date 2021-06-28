@@ -30,7 +30,7 @@ function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
 for (i = 0; i < questions.length; i++){
-  if (candidateAnswers[i] == correctAnswers[i]){
+  if (candidateAnswers[i].toUpperCase() == correctAnswers[i].toUpperCase()){
     grade++
   }
   graded = (((grade) / 5) * 100)
