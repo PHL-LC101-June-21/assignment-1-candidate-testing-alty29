@@ -70,8 +70,8 @@ Correct Answer: ${correctAnswers[3]}
 You Answered: ${candidateAnswers[4]}
 Correct Answer: ${correctAnswers[4]}
 
->>> Overall Grade: ${graded}%
->>> Status:  ${candidateStatus}<<<`)
+>>> Overall Grade: ${graded}% ${grade} out of 5 correct
+>>> Status:  ${candidateStatus} <<<`)
 }
 // Don't write any code below this line //
 // And don't change these or your program will not run as expected //
